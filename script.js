@@ -17,7 +17,7 @@ let questions = [
     answer: "Paris"
 },
 {
-    question: "Which is the most populated country in the world?:",
+    question: "Which is the most populated country in the world?",
     options: ["India", "China", "America", "Canada"],
     answer: "India"
 },
@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     startBtn.addEventListener('click', showQuestion);
 
     function showQuestion() {
+        startBtn.classList.add('hidden')
         questionContainer.classList.remove('hidden');
         question.classList.remove('hidden');
         question.textContent = "";
