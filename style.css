@@ -96,7 +96,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #0b0b0b;
-    width: 70vw;
+    width: 80vw;
     border-radius: 10px;
 }
 
@@ -104,5 +104,73 @@ body {
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
+}
+
+.start-btn {
+    margin-top: 5px;
+}
+
+.next-question {
+    margin-top: 10px;
+}
+} 
+
+@media screen and (max-width: 1024px) {
+ .box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0b0b0b;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.question-container .quiz-question {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.start-btn {
+    margin-top: 5px;
+}
+
+.next-question {
+    margin-top: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+} 
+
+@media screen and (max-width: 1180px) {
+  .box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0b0b0b;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.question-container .quiz-question {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.start-btn {
+    margin-top: 5px;
+}
+
+.next-question {
+    margin-top: 10px;
+}
+
+.container {
+    padding: 20px;
 }
 } 
